@@ -1,0 +1,56 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "§l§aAxO AntiCheat v0.3",
+    "description": "§l§aAntiCheat @mayk_axol_official",
+    "uuid": "b79ff398-ec7a-4d3e-be71-ab3a1b457a94",
+    "version": [ 1, 0, 3 ],
+    "min_engine_version": [ 1, 14, 0 ]
+  },
+  "modules": [
+    {
+      "description": "Works for realms",
+      "type": "data",
+      "uuid": "3cbd5d65-342d-4ef8-9f64-a03a2d7ec06c",
+      "version": [ 1, 0, 0 ]
+    },
+    {
+      "description": "Fixed Manifest",
+      "language": "javascript",
+      "type": "script",
+      "uuid": "48cbe14d-f58b-4537-8229-49037ca4433c",
+      "version": [0, 0, 1],
+      "entry": "scripts/main/index.js"
+    },
+    {
+      "description": "Gametest Module",
+      "language": "javascript",
+      "type": "script",
+      "uuid": "28ce9a9e-d4fc-4d33-90b2-0c5c0ea8f643",
+      "version": [3, 0, 0],
+      "entry": "scripts/main.js"
+    },
+    {
+      "description": "Commands",
+      "version": [
+          1,
+          0,
+          0
+      ],
+      "language": "javascript",
+      "type": "script",
+      "uuid": "bd775b9b-67fd-4494-be9b-cfe68cd0b37f",
+      "entry": "scripts/commands/main.js"
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "b26a4d4c-afdf-4690-88f8-931846312678",
+      "version": [ 0, 1, 0 ]
+    },
+    {
+      "module_name": "@minecraft/server",
+      "version": "1.1.0-beta"
+    }
+  ]
+}
