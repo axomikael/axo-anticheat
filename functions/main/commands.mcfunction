@@ -1,0 +1,2 @@
+gamerule commandblockoutput false
+gamerule setcommandfeedback false
