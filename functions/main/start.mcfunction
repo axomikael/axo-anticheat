@@ -1,0 +1,10 @@
+function antispam/chatSpam
+function main/commands
+function speed_fly/antispeed
+function nickname/kick
+function Systems/load_all
+function admin/admin
+function admin/newadmin
+function nbt/load_all
+function players/main/load
+function gm/gm
