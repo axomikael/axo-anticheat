@@ -1,4 +1,3 @@
-import "charged/banitems.js"
 import "charged/nuker.js"
 import "config.js"
 import "Protect/index.js"
