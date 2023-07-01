@@ -12,7 +12,7 @@ loop()
 function loop(){
     system.run(() => {
         tick++
-        worldLoad ? loop() : world.getDimension('overworld').runCommandAsync(`testfor @a`).then(e => { if(!worldLoad){ world.getDimension('overworld').runCommandAsync(`tellraw @a {"rawtext":[{"text":"§l§bAxO ➤ §eмир успешно загружен"}]}`), world.getDimension("overworld").runCommandAsync(`scoreboard objectives add chatsSent dummy`), worldLoad = true, loop()}}, onrejected => {return loop()})
+        worldLoad ? loop() : world.getDimension('overworld').runCommandAsync(`testfor @a`).then(e => { if(!worldLoad){ world.getDimension('overworld').runCommandAsync(`tellraw @a {"rawtext":[{"text":"§l§bAxO ➤ §r§eworld has been loaded"}]}`), world.getDimension("overworld").runCommandAsync(`scoreboard objectives add chatsSent dummy`), worldLoad = true, loop()}}, onrejected => {return loop()})
         if(system.currentTick % 20 == 0){
             timer()
         }
