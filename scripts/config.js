@@ -1,0 +1,38 @@
+export const CONFIGURATION = {
+  VERSION: "1.0.0",
+  BY_PASS_TAG: "admin",
+  BANNED_ITEMS: [
+    "minecraft:portal",
+    "minecraft:fire",
+    "minecraft:item.chain",
+    "minecraft:item.campfire",
+    "minecraft:item.kelp",
+    "minecraft:bee_nest",
+    "minecraft:beehive",
+    "minecraft:item.crossbow",
+    "minecraft:barrier",
+    "minecraft:item.reeds",
+    "minecraft:item.camera",
+    "minecraft:pistonarmcollision",
+    "minecraft:movingBlock",
+    "minecraft:info_update2",
+    "minecraft:stickyPistonArmCollision",
+    "minecraft:movingblock",
+    "minecraft:moving_block",
+    "minecraft:invisiblebedrock",
+    "minecraft:glowingobsidian",
+    "minecraft:flowing_water",
+    "minecraft:flowing_lava",
+    "minecraft:item.nether_sprouts",
+
+    "minecraft:item.lingering_potion",
+    "minecraft:item.splash_potion",
+    "minecraft:lingering_potion",
+    "minecraft:splash_potion"
+  ],
+  BANNED_BLOCKS: [
+    "minecraft:moving_block",
+    "minecraft:beehive",
+    "minecraft:beenest",
+  ],
+};
