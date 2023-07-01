@@ -1,0 +1,1 @@
+function ban/ban
