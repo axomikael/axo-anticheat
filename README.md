@@ -1,4 +1,5 @@
 # axo-anticheat
 AntiCheat for MCPE 1.19.20-1.19.51
 
-by Axolotgame (all) and Felix (3 files)
+by Axolotgame
+contact: https://t.me/axo_mc (telegram @axo_mc)
