@@ -9,5 +9,7 @@ contact: https://t.me/axo_mc (telegram @axo_mc)
 
 🇷🇺 Создайте новый мир с данным датапаком или добавьте его в уже существующий мир. Обязательно должны быть включены функции Education Edition и экспериментального режима.
 
+!FOR ADMIN! add the "admin", "Admin" and "host" tags to yourself
+
 # functions
 You can download the current version of the anti-cheat and find out all the functions in the telegram channel: https://t.me/axo_ac
